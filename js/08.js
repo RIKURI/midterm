@@ -9,6 +9,10 @@ function isLeapYear(a){
   }else{
     if(a % 4 == 0 && A && !B){
       return false;
+    }else{
+      if(a % 4 == 0 && B){
+        return true;
+      }
     }
   }
 }
